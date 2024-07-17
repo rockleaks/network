@@ -17,17 +17,14 @@ public class eclient {
             is = new DataInputStream(System.in);
             is1 = new DataInputStream(c.getInputStream());
             do {
-                System.out.println("client"); 
-                BufferedReader d = new BufferedReader(new InputStreamReader(is));
-                line = d.readLine();
+                System.out.println("client");
+                line = is.readLine();
                 os.println(line);
                 if (!line.equals("exit"))
-                    System.out.println("server:" + d.readLine());
+                    System.out.println("server:" + is1.readLine());
             } while (!line.equals("exit"));
         } catch (IOException e) {
             System.out.println("socket closed");
         }
     }
 }
-
-// Need to make sure that the BufferedReader is working
