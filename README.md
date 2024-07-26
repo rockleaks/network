@@ -53,7 +53,7 @@ _On Windows/MacOS/Linux_ ⬇️
    - On Windows Powershell: `dir` Or `ls`
    - On Linux/MacOS: `ls`
 
-**Note:** All the Java programs should be compiled before executing it.
+**Note:** All the Java programs should be compiled for executing it.
 ---
 ## Run Java file
 
