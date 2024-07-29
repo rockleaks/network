@@ -13,7 +13,7 @@ class UDPserver {
             byte[] RData = new byte[1024];
             DatagramPacket RPack = new DatagramPacket(RData, RData.length);
             SrvSoc.receive(RPack);
-            String Text = new String(RPack.getData());
+            String Text = new String(RPack.getData(), 0, RPack.getLength());
             if (Text.trim().length() == 0)
                 break;
             System.out.println("\nFrom Client <<< " + Text);
