@@ -35,13 +35,13 @@ _On Windows/MacOS/Linux_ ⬇️
     - On Linux and Windows Command Prompt Using - `curl`
    
    ```bash
-   curl -o network.zip -L https://github.com/rockleaks/network/archive/refs/heads/main.zip && tar -xvzf network.zip
+   curl -o network.zip -L https://github.com/rockleaks/network/archive/refs/heads/main.zip
    ```
 
     - On Linux and Windows Powershell Using - `wget`
 
     ```bash
-    wget -O network.zip https://github.com/rockleaks/network/archive/refs/heads/main.zip | tar -xvzf network.zip
+    wget -O network.zip https://github.com/rockleaks/network/archive/refs/heads/main.zip
     ```
 
 2. For extract `.zip` file using terminal
