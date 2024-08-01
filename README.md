@@ -43,11 +43,25 @@ _On Windows/MacOS/Linux_ ⬇️
     ```bash
     wget -O network.zip https://github.com/rockleaks/network/archive/refs/heads/main.zip | tar -xvzf network.zip
     ```
-2. Navigate to the directory
+
+2. For extract `.zip` file using terminal
+
+    - On Windows, Using - `tar`
+  
+    ```bash
+    tar -xvzf network.zip
+    ```
+    - On Linux/MacOS, Using - `unzip`
+  
+    ```bash
+    unzip network.zip
+    ```
+    
+3. Navigate to the directory
 
    `cd network-main/src`
 
-3. To display all the files in the directory
+4. To display all the files in the directory
 
    - On Windows Command Prompt: `dir`
    - On Windows Powershell: `dir` Or `ls`
