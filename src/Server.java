@@ -6,8 +6,7 @@ public class Server {
         ServerSocket sersock = new ServerSocket(3000);
         System.out.println("Server ready for chatting");
         Socket sock = sersock.accept();
-        BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in)); // reading from keyboard (
-                                                                                       // keyRead object)
+        BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in)); // reading from keyboard (keyRead object)
         OutputStream ostream = sock.getOutputStream(); // sending to client (pwrite object)
         PrintWriter pwrite = new PrintWriter(ostream, true);
         InputStream istream = sock.getInputStream();// receiving from server ( receiveRead object)
