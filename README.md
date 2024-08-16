@@ -27,7 +27,7 @@ Caution: Don't try to use this repo on the examinations, we were not reponsible 
 
    _OR_
    
-2. Download latest version of this repo and extract `.zip` file using terminal
+2. Download latest version of this repo `.zip` file using terminal
 _On Windows/MacOS/Linux_ ⬇️
 
     - On Linux and Windows Command Prompt Using - `curl`
