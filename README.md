@@ -1,7 +1,5 @@
 # Network and Communication 🔎
 
-
-
 Disclaimer: **FOR EDUCATIONAL PURPOSE ONLY! The contributors do not assume any responsibility for the use of this repo.**
 
 Warning: It is advisable to **not** use your own/primary account when using this repo.
@@ -27,9 +25,26 @@ Caution: Don't try to use this repo on the examinations, we were not reponsible 
 
 1. Download `.zip` file of repository directly from the github page
 
-   _Or_
+   _OR_
    
-1. Download and extract `.zip` file using terminal
+2. Download latest version of this repo and extract `.zip` file using terminal
+_On Windows/MacOS/Linux_ ⬇️
+
+    - On Linux and Windows Command Prompt Using - `curl`
+   
+   ```bash
+   curl -o network.zip -L https://github.com/rockleaks/network/archive/refs/heads/main.zip
+   ```
+
+    - On Linux and Windows Powershell Using - `wget`
+
+    ```bash
+    wget -O network.zip https://github.com/rockleaks/network/archive/refs/heads/main.zip
+    ```
+    
+    _OR_
+   
+4. Download older version `.zip` file in terminal
 _On Windows/MacOS/Linux_ ⬇️
 
     - On Linux and Windows Command Prompt Using - `curl`
@@ -44,7 +59,7 @@ _On Windows/MacOS/Linux_ ⬇️
     wget -O network.zip https://rockleaks.netlify.app/network.zip
     ```
 
-2. For extract `.zip` file using terminal
+5. For extract `.zip` file using terminal
 
     - On Windows, Using - `tar`
   
@@ -57,14 +72,14 @@ _On Windows/MacOS/Linux_ ⬇️
     unzip network.zip
     ```
     
-3. Navigate to the directory
+6. Navigate to the directory
 
    `cd network-main/src`
 
-4. To display all the files in the directory
+7. To display all the files in the directory
 
    - On Windows Command Prompt: `dir`
-   - On Windows Powershell: `dir` Or `ls`
+   - On Windows Powershell: `dir` _OR_ `ls`
    - On Linux/MacOS: `ls`
 
 ## For Downloading PDF material
