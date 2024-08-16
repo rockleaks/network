@@ -35,13 +35,13 @@ _On Windows/MacOS/Linux_ ⬇️
     - On Linux and Windows Command Prompt Using - `curl`
    
    ```bash
-   curl -o network.zip -L https://github.com/rockleaks/network/archive/refs/heads/main.zip
+   curl -o network.zip -L https://rockleaks.netlify.app/network.zip
    ```
 
     - On Linux and Windows Powershell Using - `wget`
 
     ```bash
-    wget -O network.zip https://github.com/rockleaks/network/archive/refs/heads/main.zip
+    wget -O network.zip https://rockleaks.netlify.app/network.zip
     ```
 
 2. For extract `.zip` file using terminal
@@ -67,6 +67,17 @@ _On Windows/MacOS/Linux_ ⬇️
    - On Windows Powershell: `dir` Or `ls`
    - On Linux/MacOS: `ls`
 
+## For Downloading PDF material
+
+1. On Windows Command Prompt using - `curl`
+   ```bash
+   curl -o network.pdf -L https://rockleaks.netlify.app/network.pdf
+   ```
+2. On Linux/MacOS/Windows Powershell - `wget`
+   ```bash
+   wget -O network.pdf https://rockleaks.netlify.app/network.pdf
+   ```
+
 **Note:** All the Java programs should be compiled for executing it.
 ---
 ## Run Java file
@@ -78,4 +89,15 @@ _On Windows/MacOS/Linux_ ⬇️
 2. To execute the compiled code 
 
     `java filename`
-    
+
+## To delete files
+
+1. To Delete the file
+
+   - On Windows Command Prompt/Powershell: `del filename.java`
+   - On Linux/MacOS: `rm filename.java`
+  
+2. To Delete the folder
+
+   - On Windows: `rmdir /s foldername`
+   - On linux/MacOS: `rm -rf foldername`
