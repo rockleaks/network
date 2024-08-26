@@ -10,7 +10,7 @@ class UDPclient {
         byte buffer[] = new byte[1024];
         BufferedReader dis = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("server waiting");
-        InetAddress ia = InetAddress.getByName("127.0.0.1"); // Change the IP address based on your needs
+        InetAddress ia = InetAddress.getByName("127.0.0.1");
         while (true) {
             System.out.print("Client:");
             String str = dis.readLine();
