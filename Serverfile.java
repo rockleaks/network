@@ -2,8 +2,6 @@ import java.io.*;
 import java.net.*;
 // import java.util.*;
 
-// Run this command in the terminal for compiling the programs
-// command : `java -source 1.8 -target 1.8 filename.java`
 class Serverfile {
     public static void main(String args[]) {
         try {
